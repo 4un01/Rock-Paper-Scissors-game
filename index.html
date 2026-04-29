@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="score">
+        <h1>Won = </h1>
+        <h1 id="won">0</h1>
+        <h1>|</h1>
+        <h1>Lost = </h1>
+        <h1 id="lost">0</h1>
+        <h1>|</h1>
+        <h1>Draw = </h1>
+        <h1 id="draw">0</h1>
+    </div>
+
+    <div class="mainContainer">
+
+        <h1>Choose:</h1>
+
+        <div class="options">
+            <div class="rock">
+                <img src="./images/rock.png" alt="Rock">
+                <h1>Rock</h1>
+            </div>
+
+            <div class="paper">
+                <img src="./images/paper.png" alt="Paper">
+                <h1>Paper</h1>
+            </div>
+
+            <div class="scissors">
+                <img src="./images/scissors.png" alt="Scissors">
+                <h1>Scissors</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="battleAnimation">
+        <img src="./videos/rockpaperscissors.gif" alt="rock paper scissors animation" id="fight">
+    </div>
+
+    <div class="rockVsPaper">
+        <h1>You Loose!</h1>
+        <h2>Paper Beats Rock!</h2>
+        <div class="rockVsPaperImg">
+            <img src="./images/rock.png" alt="Rock">
+            <img src="./images/paper.png" alt="Paper">
+        </div>
+    </div>
+
+    <div class="rockVsScissors">
+        <h1>You Win!</h1>
+        <h2>Rock Beats Scissors!</h2>
+        <div class="rockVsScissorsImg">
+            <img src="./images/rock.png" alt="Rock"">
+            <img src="./images/scissors.png" alt="Scissors">
+        </div>
+    </div>
+
+    <div class="rockVsRock">
+        <h1>Draw!</h1>
+        <div class="rockVsRockImg">
+            <img src="./images/rock.png" alt="Rock">
+            <img src="./images/rock.png" alt="Rock">
+        </div>
+    </div>
+
+    <div class="paperVsRock">
+        <h1>You Win!</h1>
+        <h2>Paper Beats Rock!</h2>
+        <div class="paperVsRockImg">
+            <img src="./images/paper.png" alt="Paper">
+            <img src="./images/rock.png" alt="Rock">
+        </div>
+    </div>
+
+    <div class="paperVsScissors">
+        <h1>You Loose!</h1>
+        <h2>Scissors Beats Paper!</h2>
+        <div class="rockVsScissorsImg">
+            <img src="./images/paper.png" alt="Paper">
+            <img src="./images/scissors.png" alt="Scissors">
+        </div>
+    </div>
+
+    <div class="paperVsPaper">
+        <h1>Draw!</h1>
+        <div class="paperVsPaperImg">
+            <img src="./images/paper.png" alt="Paper">
+            <img src="./images/paper.png" alt="Paper">
+        </div>
+    </div>
+
+    <div class="scissorsVsRock">
+        <h1>You Loose!</h1>
+        <h2>Rock Beats Scissors!</h2>
+        <div class="scissorsVsRockImg">
+            <img src="./images/scissors.png" alt="Scissors">
+            <img src="./images/rock.png" alt="Rock">
+        </div>
+    </div>
+
+    <div class="scissorsVsPaper">
+        <h1>You Win!</h1>
+        <h2>Scissors Beats Paper!</h2>
+        <div class="rockVsScissorsImg">
+            <img src="./images/scissors.png" alt="Scissors">
+            <img src="./images/paper.png" alt="Paper">
+        </div>
+    </div>
+
+    <div class="scissorsVsScissors">
+        <h1>Draw!</h1>
+        <div class="paperVsPaperImg">
+            <img src="./images/scissors.png" alt="Scissors">
+            <img src="./images/scissors.png" alt="Scissors">
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

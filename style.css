@@ -1,0 +1,184 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.mainContainer{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+img{
+    height: 300px;
+    width: 270px;
+}
+
+.rock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scissors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.battleAnimation{
+    height: 90vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#fight{
+    height: 50%;
+    width: 50%;
+}
+
+.score{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 20px;
+    color: rgb(116, 116, 116);
+    
+}
+
+.rockVsPaper{
+    height: 90vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+.rockVsPaperImg{
+    display: flex;
+    gap: 8em;
+}
+
+.rockVsScissors{
+    height: 90vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+.rockVsScissorsImg{
+    display: flex;
+    gap: 8em;
+}
+
+.rockVsRock{
+    height: 90vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+.rockVsRockImg{
+    display: flex;
+    gap: 8em;
+}
+
+.paperVsRock{
+    height: 90vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+.paperVsRockImg{
+    display: flex;
+    gap: 8em;
+}
+
+.paperVsScissors{
+    height: 90vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+.paperVsScissorsImg{
+    display: flex;
+    gap: 8em;
+}
+
+.paperVsPaper{
+    height: 90vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+.paperVsPaperImg{
+    display: flex;
+    gap: 8em;
+}
+
+.scissorsVsRock{
+    height: 90vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+.scissorsVsRockImg{
+    display: flex;
+    gap: 8em;
+}
+
+.scissorsVsPaper{
+    height: 90vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+.scissorsVsPaperImg{
+    display: flex;
+    gap: 8em;
+}
+
+.scissorsVsScissors{
+    height: 90vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+.paperVsPaperImg{
+    display: flex;
+    gap: 8em;
+}
