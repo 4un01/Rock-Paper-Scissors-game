@@ -62,8 +62,7 @@ img{
     justify-content: flex-end;
     align-items: flex-end;
     padding: 0 20px;
-    color: rgb(116, 116, 116);
-    
+    color: rgb(116, 116, 116);  
 }
 
 .rockVsPaper{
@@ -181,4 +180,14 @@ img{
 .paperVsPaperImg{
     display: flex;
     gap: 8em;
+}
+
+@media(max-width: 768px){
+    .score{
+        justify-content: center;
+        align-items: center;
+        padding: 0 7px;
+        gap: 5px;
+        font-size: 0.85em;
+    }
 }
