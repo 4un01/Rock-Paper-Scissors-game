@@ -54,7 +54,7 @@ img{
 
 #fight{
     height: 50%;
-    width: 50%;
+    width: 70%;
 }
 
 .score{
@@ -190,6 +190,7 @@ img{
         gap: 5px;
         font-size: 0.85em;
     }
+
     .mainContainer{
         height: 75vh;
         font-size: 0.9em;
@@ -200,5 +201,79 @@ img{
     img{
         height: 120px;
         width: 115px;
+    }
+
+    .battleAnimation{
+        height: 85vh;
+    }
+    #fight{
+        height: 40%;
+        width: 60%;
+    }
+
+    .rockVsPaper{
+        height: 75vh;
+        font-size: 1em;
+    }
+    .rockVsPaperImg{
+        gap: 4em;
+    }
+    .rockVsScissors{
+        height: 75vh;
+        font-size: 1em;
+    }
+    .rockVsScissorsImg{
+        gap: 4em;
+    }
+    .rockVsRock{
+        height: 75vh;
+        font-size: 1em;
+    }
+    .rockVsRockImg{
+        gap: 4em;
+    }
+
+    .paperVsRock{
+        height: 75vh;
+        font-size: 1em;
+    }
+    .paperVsRockImg{
+        gap: 4em;
+    }
+    .paperVsScissors{
+        height: 75vh;
+        font-size: 1em;
+    }
+    .paperVsScissorsImg{
+        gap: 4em;
+    }
+    .paperVsPaper{
+        height: 75vh;
+        font-size: 1em;
+    }
+    .paperVsPaperImg{
+        gap: 4em;
+    }
+
+    .scissorsVsRock{
+        height: 75vh;
+        font-size: 1em;
+    }
+    .scissorsVsRockImg{
+        gap: 4em;
+    }
+    .scissorsVsPaper{
+        height: 75vh;
+        font-size: 1em;
+    }
+    .scissorsVsPaperImg{
+        gap: 4em;
+    }
+    .scissorsVsScissors{
+        height: 75vh;
+        font-size: 1em;
+    }
+    .scissorsVsScissorsImg{
+        gap: 4em;
     }
 }
