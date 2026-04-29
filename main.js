@@ -48,7 +48,7 @@ function rockGame() {
                 lostNum++;
                 lost.innerHTML = lostNum;
                 paper.addEventListener('click', () => {
-                    paperDiv.style.display = 'none'
+                    paper.style.display = 'none'
                     container.style.display = 'flex';
                 }, {once: true});
             }
