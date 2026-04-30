@@ -135,6 +135,10 @@ function scissorsGame() {
     let container = document.querySelector('.mainContainer');
     let score = document.querySelector('.score');
 
+    let won = document.getElementById('won');
+    let lost = document.getElementById('lost');
+    let draw = document.getElementById('draw');
+
     let paper = document.querySelector('.scissorsVsPaper');
     let rock = document.querySelector('.scissorsVsRock');
     let scissors = document.querySelector('.scissorsVsScissors');
